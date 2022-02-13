@@ -24,7 +24,7 @@ baseurl: /np-guard
 url: https://teaguns.github.io # the base hostname AND PROTOCOL for your site, e.g. http://example.com
 permalink: /:categories/:title
 
-content_type: NP-Guard - Shift-left Automation for Generating and Maintaining Kubernetes Network Policies
+content_type: 
 use_authors: true #Set this to false to disable showing post authors
 
 brand_logo: logo.png
