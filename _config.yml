@@ -35,26 +35,26 @@ subheader: Shift-left Automation for Generating and Maintaining Kubernetes Netwo
 meta_image: odin-meta.png
 
 # Social Links
-twitter_username: TheTeaGuns
+twitter_username: 
 facebook_page:
-github_username: TeaGuns
-email: m@credd.in
+github_username: 
+email: 
 linkedin_page:
 instagram_username: 
 
 
 # Navivation
-nav_item_one: Home
-nav_item_one_link: https://np-guard.github.io/
+nav_item_one: CI Integrarion
+nav_item_one_link: https://np-guard.github.io/ci-integration.html
 
-nav_item_two: Twitter
-nav_item_two_link: https://twitter.com/TheTeaGuns
+nav_item_two: Additional page
+nav_item_two_link: #
 
 nav_item_three: #
 nav_item_three_link: #
 
-nav_button: Return to Odin Home
-nav_button_link: https://teaguns.github.io/odin/
+nav_button: Home
+nav_button_link: https://np-guard.github.io/
 
 # More Help
 help_one_title: Odin Bugs
