@@ -8,6 +8,72 @@
 	<p>In this flow, the Analysis and Synthsis phase is manually triggered by a DevOps person. This results in a new PR, containing the synthesized NetworkPolicies. Opening the PR triggers running the other components which provide connectivity map, connectivity diff and policy verification results as PR comments.</p>
 
 <p>To enable CI/CD integrations, this project provides several GitHub Actions as well as Tekton Tasks. Use the table below to get the relevant CI-stage encapsulation for your needs.</p>
+
+<table>
+<tr>
+<td>
+<b>CI stage</b>
+</td>
+<td>
+<b>GitHub Action</b>
+</td>
+<td>
+<b>Tekton Task</b>
+</td>
+</tr>
+
+<tr>
+<td>
+Analysis & Synthesis
+</td>
+<td>
+<a href="https://github.com/marketplace/actions/k8s-networkpolicy-auto-synthesis" target="blank">link</a>
+</td>
+<td>
+<a href="https://github.com/np-guard/netpol-synthesizer/tree/master/tekton" target="blank">link</a>
+</td>
+</tr>
+
+<tr>
+<td>
+Connectivity map
+</td>
+<td>
+<a href="https://github.com/marketplace/actions/k8s-networkpolicy-connectivity-report" target="blank">link</a>
+</td>
+<td>
+<a href="https://github.com/np-guard/network-config-analyzer/tree/master/tekton#k8s-netpol-report" target="blank">link</a>
+</td>
+</tr>
+
+<tr>
+<td>
+Connectivity diff
+</td>
+<td>
+<a href="https://github.com/marketplace/actions/k8s-networkpolicy-diff" target="blank">link</a>
+</td>
+<td>
+<a href="https://github.com/np-guard/network-config-analyzer/tree/master/tekton#k8s-netpol-diff" target="blank">link</a>
+</td>
+</tr>
+
+<tr>
+<td>
+Connectivity verification
+</td>
+<td>
+<a href="https://github.com/marketplace/actions/k8s-networkpolicy-verification" target="blank">link</a>
+</td>
+<td>
+<a href="https://github.com/np-guard/baseline-rules-verifier/tree/master/tekton" target="blank">link</a>
+</td>
+</tr>
+
+</table>
+
+
+
 </div>
 <div class="column col-6 col-sm-12 p-8 mb-8 col-mx-auto">
 <p>An example implementation of the CI pipeline depicted above for a <a href="https://github.com/np-guard/online-boutique" target="blank">demo Kubernetes application</a> using our <b>GitHub</b> Actions can be found <a href="https://github.com/np-guard/online-boutique/tree/master/.github/workflows" target="blank">here</a>. See a resulting PR <a href="https://github.com/np-guard/online-boutique/pull/46" target="blank">here</a>.</p>
