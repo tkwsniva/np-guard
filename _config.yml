@@ -54,7 +54,7 @@ nav_item_three: #
 nav_item_three_link: #
 
 nav_button: Home
-nav_button_link: https://np-guard.github.io/
+nav_button_link: index.html
 
 # More Help
 help_one_title: Title 1
