@@ -21,7 +21,7 @@
 title: NP-Guard
 description: Shift-left Automation for Generating and Maintaining Kubernetes Network Policies
 baseurl: /np-guard
-url: https://teaguns.github.io # the base hostname AND PROTOCOL for your site, e.g. http://example.com
+url: https://np-guard.github.io
 permalink: /:categories/:title
 
 content_type: 
@@ -45,7 +45,7 @@ instagram_username:
 
 # Navivation
 nav_item_one: CI Integrarion
-nav_item_one_link: https://np-guard.github.io/ci-integration.html
+nav_item_one_link: ci-integration.html
 
 nav_item_two: Additional page
 nav_item_two_link: #
