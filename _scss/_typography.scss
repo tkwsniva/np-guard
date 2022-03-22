@@ -64,11 +64,11 @@ p {
 
 a {
   transition: all ease 0.2s;
-  text-decoration: underline;
+  
   font-weight: 800;
   &:hover {
     color: $highlight-color;
-    text-decoration: none;
+    text-decoration: underline;
   }
 }
 
@@ -76,7 +76,7 @@ a {
 a,
 ins,
 u {
-  text-decoration-skip: ink edges;
+  text-decoration: underline;
 }
 
 abbr[title] {
